@@ -1,36 +1,47 @@
 .header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid red;
-  padding: 2px 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid red;
+	min-height: 5dvh;
+	min-height: 5vh;
 }
 
-.header__title {
-  font-size: 30px;
-  font-weight: 700;
-  margin: 0 20px;
-  background-color: red;
-  padding: 2px 20px;
-  border-radius: 30px;
+.leftside__menu {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.header__logo {
+	display: flex;
+	align-items: center;
+	padding: 0 1.25rem;
+	border: 1px solid red;
+}
+.logo__text {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-left: 0.875rem;
 }
 
 .header__nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
+	display: flex;
+	align-items: center;
+	padding-right: 1.5rem;
 }
 
 .header__list {
-  border: 1px solid red;
-  display: flex;
-  list-style: none;
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	list-style: none;
 }
 .header__list-item {
-  margin: 0 10px;
+	margin: 0 10px;
 }
 .header__list-item > a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
